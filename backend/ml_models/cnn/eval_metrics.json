@@ -1,0 +1,210 @@
+{
+  "model": "CropDiseaseCNN (3-Block Deep Convolutional Network)",
+  "input_dimensions": "3x128x128",
+  "num_classes": 6,
+  "classes": [
+    "chilli_leaf_curl",
+    "cotton_pink_bollworm",
+    "healthy_crop",
+    "rice_blast",
+    "tomato_early_blight",
+    "wheat_yellow_rust"
+  ],
+  "total_train_images": 126,
+  "total_val_images": 36,
+  "epochs_trained": 20,
+  "best_validation_accuracy": 1.0,
+  "final_classification_report": {
+    "chilli_leaf_curl": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "cotton_pink_bollworm": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "healthy_crop": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "rice_blast": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "tomato_early_blight": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "wheat_yellow_rust": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 36.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 36.0
+    }
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.1611,
+      "train_accuracy": 0.5952,
+      "val_loss": 0.8176,
+      "val_accuracy": 0.7778
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.473,
+      "train_accuracy": 0.8333,
+      "val_loss": 0.3069,
+      "val_accuracy": 0.8333
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2069,
+      "train_accuracy": 0.9524,
+      "val_loss": 0.0146,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0953,
+      "train_accuracy": 0.9762,
+      "val_loss": 0.0104,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0386,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0123,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.0265,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0059,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.0318,
+      "train_accuracy": 0.9921,
+      "val_loss": 0.0022,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.0275,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0022,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.0577,
+      "train_accuracy": 0.9762,
+      "val_loss": 0.0027,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.0633,
+      "train_accuracy": 0.9762,
+      "val_loss": 0.0208,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.1142,
+      "train_accuracy": 0.9683,
+      "val_loss": 0.0072,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.0351,
+      "train_accuracy": 0.9921,
+      "val_loss": 0.0182,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.0647,
+      "train_accuracy": 0.9762,
+      "val_loss": 0.0027,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.0376,
+      "train_accuracy": 0.9921,
+      "val_loss": 0.0013,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.0375,
+      "train_accuracy": 0.9762,
+      "val_loss": 0.0005,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.03,
+      "train_accuracy": 0.9841,
+      "val_loss": 0.0005,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.0116,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0004,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.0312,
+      "train_accuracy": 0.9921,
+      "val_loss": 0.0003,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.0116,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0003,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.0074,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0004,
+      "val_accuracy": 1.0
+    }
+  ]
+}
